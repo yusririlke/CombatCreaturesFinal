@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.splashscreen">
 
     <application
@@ -10,11 +11,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splashscreen">
         <activity
+            android:name=".Credits"
+            android:exported="false" />
+        <activity
+            android:name=".battle"
+            android:exported="false" />
+        <activity
+            android:name=".TS2"
+            android:exported="false" />
+        <activity
             android:name=".TS1"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MenuActivity"
             android:exported="true">
@@ -30,6 +40,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Credits"
+            tools:ignore="DuplicateActivity" />
     </application>
 
 </manifest>

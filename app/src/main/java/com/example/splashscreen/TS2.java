@@ -7,31 +7,30 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class TS1 extends AppCompatActivity {
+public class TS2 extends AppCompatActivity {
     Button btnR, btnstar, btnSputnik, btnMonkey, btnLion, btnRock, btnBaguette, btnTako, btnCat;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ts1);
+        setContentView(R.layout.activity_ts2);
 
         btnR = findViewById(R.id.river);
         btnR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TS1.this, TS2.class);
+                Intent intent = new Intent(TS2.this, battle.class);
                 startActivity(intent);
             }
         });
 
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
-        //
+
         btnstar = findViewById(R.id.star);
         btnstar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TS1.this, TS2.class);
+                Intent intent = new Intent(TS2.this, battle.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +42,7 @@ public class TS1 extends AppCompatActivity {
         btnSputnik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TS1.this, TS2.class);
+                Intent intent = new Intent(TS2.this, battle.class);
                 startActivity(intent);
             }
         });
@@ -55,7 +54,7 @@ public class TS1 extends AppCompatActivity {
         btnMonkey.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TS1.this, TS2.class);
+                Intent intent = new Intent(TS2.this, battle.class);
                 startActivity(intent);
             }
         });
@@ -67,7 +66,7 @@ public class TS1 extends AppCompatActivity {
         btnLion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TS1.this,TS2.class);
+                Intent intent = new Intent(TS2.this,battle.class);
                 startActivity(intent);
             }
         });
@@ -80,7 +79,7 @@ public class TS1 extends AppCompatActivity {
         btnRock.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TS1.this,TS2.class);
+                Intent intent = new Intent(TS2.this,battle.class);
                 startActivity(intent);
             }
         });
@@ -93,7 +92,7 @@ public class TS1 extends AppCompatActivity {
         btnBaguette.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TS1.this, TS2.class);
+                Intent intent = new Intent(TS2.this, battle.class);
                 startActivity(intent);
             }
         });
@@ -105,7 +104,7 @@ public class TS1 extends AppCompatActivity {
         btnTako.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TS1.this, TS2.class);
+                Intent intent = new Intent(TS2.this, battle.class);
                 startActivity(intent);
             }
         });
@@ -117,18 +116,14 @@ public class TS1 extends AppCompatActivity {
         btnCat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TS1.this, TS2.class);
+                Intent intent = new Intent(TS2.this, battle.class);
                 startActivity(intent);
             }
         });
 
         // Get the Intent that started this activity and extract the string
         Intent intent9 = getIntent();
-
-
-
-
-
-
     }
+
+
 }

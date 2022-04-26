@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 public class MenuActivity extends AppCompatActivity {
     Button btn;
+    Button b;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,10 +24,19 @@ public class MenuActivity extends AppCompatActivity {
                 Intent intent = new Intent(MenuActivity.this,TS1.class);
                 startActivity(intent);
             }
+
         });
 
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
+
+        b = (Button) findViewById(R.id.creditsBtn);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Credits.class));
+            }
+        });
 
     }
 
