@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">전투 생물</string>
+    <string name="helloWorld">훌륭해</string>
+    <string name="startButtonText">시작하려면 아무 곳이나 누르세요.</string>
+    <string name="splashDescription">"생물 전투 시작 화면 "</string>
+    <string name="newGame">"새로운 게임 "</string>
+    <string name="settings">"설정 "</string>
+    <string name="credits">크레딧</string>
+    <string name="logoDescription">"전투 생물 로고 "</string>
+    <string name="Eng_River">강</string>
+    <string name="Eng_Sputnik">인공위성</string>
+    <string name="Eng_Lion">"사자 "</string>
+    <string name="Eng_Rock">바위</string>
+    <string name="Eng_Cat">"고양이 "</string>
+    <string name="Eng_Baguette">바게트</string>
+    <string name="Eng_Star">별</string>
+    <string name="Eng_Tako">오징어</string>
+    <string name="Eng_Monkey">원숭이</string>
+    <string name="Eng_Fight">싸움</string>
+</resources>
