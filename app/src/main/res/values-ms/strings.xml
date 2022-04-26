@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Makhluk Mengamuk</string>
+    <string name="Eng_River">Sungai</string>
+    <string name="Eng_Sputnik">Sputnik</string>
+    <string name="Eng_Lion">Singa</string>
+    <string name="Eng_Rock">Batu</string>
+    <string name="Eng_Cat">Kucing</string>
+    <string name="Eng_Baguette">Roti</string>
+    <string name="Eng_Star">Kejora</string>
+    <string name="Eng_Tako">Tako</string>
+    <string name="Eng_Monkey">Nyet</string>
+    <string name="Eng_Fight">Lawan</string>
+    <string name="Eng_Switch">Tukar</string>
+    <string name="startButtonText">Tekan untuk mula</string>
+    <string name="splashDescription">Layar Mula Permainan</string>
+    <string name="newGame">MULA</string>
+    <string name="settings">TETAPAN</string>
+    <string name="credits">Penghargaan</string>
+    <string name="logoDescription">Logo Permainan</string>
+    <string name="helloWorld">Berjaya!</string>
+
+</resources>
