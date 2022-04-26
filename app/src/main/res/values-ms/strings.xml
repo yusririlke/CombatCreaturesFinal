@@ -10,13 +10,14 @@
     <string name="Eng_Tako">Tako</string>
     <string name="Eng_Monkey">Nyet</string>
     <string name="Eng_Fight">Lawan</string>
-    <string name="Eng_Switch">Tukar</string>
     <string name="startButtonText">Tekan untuk mula</string>
     <string name="splashDescription">Layar Mula Permainan</string>
     <string name="newGame">MULA</string>
     <string name="settings">TETAPAN</string>
     <string name="credits">Penghargaan</string>
     <string name="logoDescription">Logo Permainan</string>
+    <string name="selectText" >Pilih Makhluk Anda</string>
+    <string name="creditsText">PENGHARGAAN</string>
     <string name="helloWorld">Berjaya!</string>
 
 </resources>

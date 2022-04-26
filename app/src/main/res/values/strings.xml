@@ -1,14 +1,12 @@
 <resources>
     <string name="app_name">splashscreen</string>
-    <string name="helloWorld">You Did It!</string>
-    <string name="startButtonText">Press anywhere to start</string>
     <string name="splashDescription">Creature Combat splash screen</string>
     <string name="newGame">NEW GAME</string>
     <string name="settings">SETTINGS</string>
     <string name="credits">CREDITS</string>
     <string name="logoDescription">Combat Creatures logo</string>
     <string name="Eng_River">River</string>
-    <string name="Eng_Sputnik" translatable="false">Sputnik</string>
+    <string name="Eng_Sputnik">Sputnik</string>
     <string name="Eng_Lion">Lion</string>
     <string name="Eng_Rock">Rock</string>
     <string name="Eng_Cat">Cat</string>
@@ -17,4 +15,7 @@
     <string name="Eng_Tako">Tako</string>
     <string name="Eng_Monkey">Monkey</string>
     <string name="Eng_Fight">Fight</string>
+    <string name="startButtonText">Press to Start!</string>
+    <string name="selectText">Select Your Creature</string>
+    <string name="creditsText">CREDITS</string>
 </resources>

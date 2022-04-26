@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/drawable-ms/background_splash.xml" value="0.1984375" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/drawable/background_splash.xml" value="0.1984375" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/drawable/ic_launcher_background2.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/drawable/ic_launcher_background3.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/drawable/ic_launcher_background4.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/layout-land/activity_ts1.xml" value="0.16005291005291006" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/layout-land/activity_ts2.xml" value="0.16005291005291006" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/layout-land/team_select1.xml" value="0.16005291005291006" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/layout/activity_battle.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/layout/activity_credits.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/layout/activity_menu.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/layout/activity_splash.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/layout/activity_ts1.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/layout/activity_ts2.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/layout/team_select1.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Yusri Zafri/Downloads/combat_creatures-master/combat_creatures-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22291666666666668" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
