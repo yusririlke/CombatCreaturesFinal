@@ -19,7 +19,7 @@
 
             animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.credits);
             textView = findViewById(R.id.textView3);
-            textView.setText("Credits \n" + "Alex Lee\n"+ "Hamza Bachnak\n" + "Yusri Zafri Mohd Yuri");
+            textView.setText(new StringBuilder().append(getResources().getString(R.string.credits)).append("\n").append("Alex Lee\n").append("Hamza Bachnak\n").append("Yusri Zafri Mohd Yuri").toString());
 
             textView.startAnimation(animation);
 
