@@ -15,8 +15,12 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.io.IOException;
+
 public class MenuActivity extends AppCompatActivity {
+    public static boolean shouldPlay = false;
     private SoundPool soundPool;
+    MediaPlayer music;
     private int click;
     Button b;
     Button btn;
@@ -25,6 +29,7 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             AudioAttributes audioAttributes = new AudioAttributes.Builder()
@@ -40,7 +45,10 @@ public class MenuActivity extends AppCompatActivity {
             soundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
         }
         click = soundPool.load(this, R.raw.click, 1);
-
+        music= MediaPlayer.create(MenuActivity.this, R.raw.menutheme);
+        music.setLooping(true); // Set looping
+        music.setVolume(1.0f, 1.0f);
+        music.start();
 
 
 
@@ -62,6 +70,7 @@ public class MenuActivity extends AppCompatActivity {
         setBtn.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View view) {
                 soundPool.play(click, 1, 1, 0, 0, 1);
+                //shouldPlay = false;
                                       }
         });
         Intent intent = getIntent();
@@ -72,17 +81,40 @@ public class MenuActivity extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(),Credits.class));
                 soundPool.play(click, 1, 1, 0, 0, 1);
+
             }
         });
 
     }
+
+
+
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
         soundPool.release();
         soundPool = null;
+        music.stop();
+        music.release();
+
     }
+
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+        music.pause();
+        }
+
+
+    @Override
+    public void onResume (){
+        super.onResume();
+        music.start();
+    }
+
 
 
 

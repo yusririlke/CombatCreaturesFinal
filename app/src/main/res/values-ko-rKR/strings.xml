@@ -19,4 +19,5 @@
     <string name="Eng_Fight">싸움</string>
     <string name="selectText">당신의 생물을 선택하십시오</string>
     <string name="creditsText">크레딧</string>
+    <string name="thanksText">감사합니다</string>
 </resources>
