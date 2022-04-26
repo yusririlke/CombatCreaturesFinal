@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431736840360",
+    "project_id": "combatcreaturesfinal",
+    "storage_bucket": "combatcreaturesfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431736840360:android:db7b5ab9b3165bf0a2229d",
+        "android_client_info": {
+          "package_name": "com.example.splashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431736840360-vugh0amut7qfqt0ii6pncv439i4deium.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2aalV_BIh9_OycTj44hdaPJzsASjNzrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431736840360-vugh0amut7qfqt0ii6pncv439i4deium.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
