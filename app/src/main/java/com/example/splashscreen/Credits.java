@@ -8,6 +8,7 @@
     import android.view.animation.AnimationUtils;
     import android.widget.Button;
     import android.widget.TextView;
+    import android.widget.Toast;
 
     public class Credits extends AppCompatActivity {
         TextView textView;
@@ -22,6 +23,8 @@
             textView.setText(new StringBuilder().append(getResources().getString(R.string.credits)).append("\n").append("Alex Lee\n").append("Hamza Bachnak\n").append("Yusri Zafri Mohd Yuri").toString());
 
             textView.startAnimation(animation);
+            Toast.makeText(getApplicationContext(), R.string.thanksText, Toast.LENGTH_SHORT).show();
+
 
 
         }
