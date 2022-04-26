@@ -17,6 +17,6 @@
     <string name="Eng_Tako">오징어</string>
     <string name="Eng_Monkey">원숭이</string>
     <string name="Eng_Fight">싸움</string>
-    <string name="selectText">Select Your Creature</string>
+    <string name="selectText">당신의 생물을 선택하십시오</string>
     <string name="creditsText">크레딧</string>
 </resources>
