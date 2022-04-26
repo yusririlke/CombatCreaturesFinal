@@ -125,5 +125,13 @@ public class TS2 extends AppCompatActivity {
         Intent intent9 = getIntent();
     }
 
+    @Override
+    protected void onSaveInstanceState (Bundle bundle) {
+
+        super.onSaveInstanceState(bundle);
+    }
+
+
+
 
 }

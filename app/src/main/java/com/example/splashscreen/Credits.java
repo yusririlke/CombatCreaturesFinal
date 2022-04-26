@@ -17,6 +17,19 @@
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_credits);
 
+            animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.credits);
+            textView = findViewById(R.id.textView3);
+            textView.setText("Credits \n" + "Alex Lee\n"+ "Hamza Bachnak\n" + "Yusri Zafri Mohd Yuri");
 
+            textView.startAnimation(animation);
+
+
+        }
+
+
+        @Override
+        protected void onSaveInstanceState (Bundle bundle) {
+
+            super.onSaveInstanceState(bundle);
         }
     }

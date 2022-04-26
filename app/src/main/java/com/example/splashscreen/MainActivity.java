@@ -12,13 +12,16 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
+
+
 
     public void startClick(View view) {
 
@@ -26,6 +29,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
 
+    }
+
+
+    @Override
+    protected void onSaveInstanceState (Bundle bundle) {
+
+        super.onSaveInstanceState(bundle);
     }
 
 

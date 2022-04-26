@@ -13,4 +13,11 @@ public class SplashActivity extends AppCompatActivity {
         startActivity(new Intent(this, MainActivity.class));
         finish();
     }
+
+
+    @Override
+    protected void onSaveInstanceState (Bundle bundle) {
+
+        super.onSaveInstanceState(bundle);
+    }
 }

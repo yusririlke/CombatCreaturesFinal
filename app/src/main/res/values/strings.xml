@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">splashscreen</string>
+    <string name="app_name">CombatCreatures</string>
     <string name="splashDescription">Creature Combat splash screen</string>
     <string name="newGame">NEW GAME</string>
     <string name="settings">SETTINGS</string>

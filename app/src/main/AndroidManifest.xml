@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splashscreen">
         <activity
+            android:name=".victory"
+            android:exported="false" />
+        <activity
             android:name=".Credits"
             android:exported="false" />
         <activity
