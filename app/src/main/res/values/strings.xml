@@ -18,4 +18,5 @@
     <string name="startButtonText">Press to Start!</string>
     <string name="selectText">Select Your Creature</string>
     <string name="creditsText">CREDITS</string>
+    <string name="thanksText">and now you know who\'s responsible</string>
 </resources>
