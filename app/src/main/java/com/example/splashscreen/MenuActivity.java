@@ -24,7 +24,8 @@ public class MenuActivity extends AppCompatActivity {
     private int click;
     Button b;
     Button btn;
-    Button setBtn;
+    private int currPos;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +53,7 @@ public class MenuActivity extends AppCompatActivity {
 
 
 
+
         btn = findViewById(R.id.newGameBtn);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,13 +68,7 @@ public class MenuActivity extends AppCompatActivity {
 
         // Get the Intent that started this activity and extract the string
 
-        setBtn = (Button) findViewById(R.id.settingsBtn);
-        setBtn.setOnClickListener(new View.OnClickListener() {
-            @Override public void onClick(View view) {
-                soundPool.play(click, 1, 1, 0, 0, 1);
-                //shouldPlay = false;
-                                      }
-        });
+
         Intent intent = getIntent();
 
         b = (Button) findViewById(R.id.creditsBtn);
@@ -96,7 +92,6 @@ public class MenuActivity extends AppCompatActivity {
         soundPool.release();
         soundPool = null;
         music.stop();
-        music.release();
 
     }
 
@@ -104,15 +99,21 @@ public class MenuActivity extends AppCompatActivity {
     @Override
     public void onPause() {
         super.onPause();
-
-        music.pause();
+        if (music.isPlaying()) {
+            music.pause();
+            currPos = music.getCurrentPosition();
         }
-
+    }
 
     @Override
     public void onResume (){
         super.onResume();
-        music.start();
+        if(music.isPlaying()==false)
+        {
+            music.seekTo(currPos);
+            music.start();
+        }
+
     }
 
 

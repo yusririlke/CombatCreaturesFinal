@@ -20,7 +20,17 @@
 
             animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.credits);
             textView = findViewById(R.id.textView3);
-            textView.setText(new StringBuilder().append(getResources().getString(R.string.credits)).append("\n").append("Alex Lee\n").append("Hamza Bachnak\n").append("Yusri Zafri Mohd Yuri").toString());
+            textView.setText(new StringBuilder().append(getResources().getString(R.string.credits)).append("\n")
+                    .append("Alex Lee\n").
+                            append("Hamza Bachnak\n").
+                            append("Yusri Zafri Mohd Yuri\n\n").
+                                    append(getResources().getString(R.string.music)).
+                            append("\nBalloon Game - Kevin MacLeod\n").
+                            append("Digital Lemonade - Kevin MacLeod\n").
+                            append("Mega Hyper Ultrastorm - Kevin MacLeod\n").
+                            append("incompetech.com\n").
+                            append("zapsplat.com\n").
+                            toString());
 
             textView.startAnimation(animation);
             Toast.makeText(getApplicationContext(), R.string.thanksText, Toast.LENGTH_SHORT).show();

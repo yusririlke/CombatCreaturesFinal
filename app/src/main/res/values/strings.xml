@@ -19,4 +19,6 @@
     <string name="selectText">Select Your Creature</string>
     <string name="creditsText">CREDITS</string>
     <string name="thanksText">and now you know who\'s responsible</string>
+    <string name="victoryText">Congratulations, A winner is you!</string>
+    <string name="music">MUSIC AND SOUND EFFECTS</string>
 </resources>
