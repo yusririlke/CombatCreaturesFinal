@@ -66,14 +66,6 @@ public class MenuActivity extends AppCompatActivity {
 
         // Get the Intent that started this activity and extract the string
 
-        setBtn = (Button) findViewById(R.id.settingsBtn);
-        setBtn.setOnClickListener(new View.OnClickListener() {
-            @Override public void onClick(View view) {
-                soundPool.play(click, 1, 1, 0, 0, 1);
-                //shouldPlay = false;
-                                      }
-        });
-        Intent intent = getIntent();
 
         b = (Button) findViewById(R.id.creditsBtn);
         b.setOnClickListener(new View.OnClickListener() {

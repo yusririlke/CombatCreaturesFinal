@@ -4,9 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.google.firebase.firestore.DocumentReference;
 
-public class battle extends AppCompatActivity implements FirestoreESP.OnAuthenticatedListener {
+public class battle extends AppCompatActivity {
 
 
    /* DocumentReference docRef = db.collection("creatureData").document(*//*enter creature name to get *//*);*/
@@ -25,8 +24,5 @@ public class battle extends AppCompatActivity implements FirestoreESP.OnAuthenti
         super.onSaveInstanceState(bundle);
     }
 
-    @Override
-    public void onAuthenticated(boolean success, String status) {
-
-    }
+ 
 }
