@@ -15,6 +15,7 @@ public class TS2 extends AppCompatActivity {
     Button btnR, btnstar, btnSputnik, btnMonkey, btnLion, btnRock, btnBaguette, btnTako, btnCat;
     private SoundPool soundPool;
     private int click;
+    int cc1 = 7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +41,10 @@ public class TS2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS2.this, battle.class);
+                intent.putExtra("CC1", cc1);
+                intent.putExtra("CC2", 1);
+
+
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -53,6 +58,9 @@ public class TS2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS2.this, battle.class);
+                intent.putExtra("CC1", cc1);
+                intent.putExtra("CC2", 6);
+
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -66,6 +74,9 @@ public class TS2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS2.this, battle.class);
+                intent.putExtra("CC1", cc1);
+                intent.putExtra("CC2", 2);
+
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -79,6 +90,9 @@ public class TS2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS2.this, battle.class);
+                intent.putExtra("CC1", cc1);
+                intent.putExtra("CC2", 5);
+
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -92,6 +106,9 @@ public class TS2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS2.this,battle.class);
+                intent.putExtra("CC1", cc1);
+                intent.putExtra("CC2", 3);
+
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -106,6 +123,9 @@ public class TS2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS2.this,battle.class);
+                intent.putExtra("CC1", cc1);
+                intent.putExtra("CC2", 9);
+
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -120,6 +140,9 @@ public class TS2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS2.this, battle.class);
+                intent.putExtra("CC1", cc1);
+                intent.putExtra("CC2", 4);
+
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -133,6 +156,9 @@ public class TS2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS2.this, battle.class);
+                intent.putExtra("CC1", cc1);
+                intent.putExtra("CC2", 8);
+
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -146,6 +172,9 @@ public class TS2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS2.this, battle.class);
+                intent.putExtra("CC1", cc1);
+                intent.putExtra("CC2", 7);
+
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }

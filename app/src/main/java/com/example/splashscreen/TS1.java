@@ -41,6 +41,7 @@ public class TS1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS1.this, TS2.class);
+                intent.putExtra("creature1", 1);
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -54,6 +55,7 @@ public class TS1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS1.this, TS2.class);
+                intent.putExtra("creature1", 6);
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -67,6 +69,7 @@ public class TS1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS1.this, TS2.class);
+                intent.putExtra("creature1", 2);
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -80,6 +83,7 @@ public class TS1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS1.this, TS2.class);
+                intent.putExtra("creature1", 5);
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -93,6 +97,7 @@ public class TS1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS1.this,TS2.class);
+                intent.putExtra("creature1", 3);
                 startActivity(intent);
             }
         });
@@ -106,6 +111,7 @@ public class TS1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS1.this,TS2.class);
+                intent.putExtra("creature1", 9);
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -120,6 +126,7 @@ public class TS1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS1.this, TS2.class);
+                intent.putExtra("creature1", 4);
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -133,6 +140,7 @@ public class TS1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS1.this, TS2.class);
+                intent.putExtra("creature1", 8);
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }
@@ -146,6 +154,7 @@ public class TS1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TS1.this, TS2.class);
+                intent.putExtra("creature1", 7);
                 startActivity(intent);
                 soundPool.play(click, 1, 1, 0, 0, 1);
             }

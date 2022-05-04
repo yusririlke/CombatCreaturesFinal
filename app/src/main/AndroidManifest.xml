@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splashscreen">
         <activity
-            android:name=".Credits"
+            android:name=".battle"
             android:exported="false" />
         <activity
-            android:name=".battle"
+            android:name=".Credits"
             android:exported="false" />
         <activity
             android:name=".TS2"
