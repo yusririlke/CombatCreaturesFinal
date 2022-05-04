@@ -31,6 +31,9 @@
             1
         </activity>
         <activity
+            android:name=".victory"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">

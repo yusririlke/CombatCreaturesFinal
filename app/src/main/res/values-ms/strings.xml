@@ -17,6 +17,8 @@
     <string name="credits">Penghargaan</string>
     <string name="logoDescription">Logo Permainan</string>
     <string name="selectText" >Pilih Makhluk Anda</string>
+    <string name="lightAttack">Serangan Kasar</string>
+    <string name="heavyAttack">Serangan Halus</string>
     <string name="creditsText">PENGHARGAAN</string>
     <string name="thanksText">Hanya Jauhari Mengenal Manikam</string>
     <string name="victoryText">Tahniah, pemenang anda merupakan!</string>

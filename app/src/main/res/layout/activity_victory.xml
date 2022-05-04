@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".victory">
 
     <TextView
         android:id="@+id/CongratsTextNotChange"
@@ -26,7 +26,7 @@
         android:id="@+id/TextWinnerName"
         android:layout_width="233dp"
         android:layout_height="87dp"
-        android:text="TextView"
+        android:text="Jerry"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

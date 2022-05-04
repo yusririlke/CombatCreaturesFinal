@@ -18,6 +18,9 @@
     <string name="Eng_Monkey">원숭이</string>
     <string name="Eng_Fight">싸움</string>
     <string name="selectText">당신의 생물을 선택하십시오</string>
+    <string name="lightAttack">가벼운 공격</string>
+    <string name="heavyAttack">강한 공격
+</string>
     <string name="creditsText">크레딧</string>
     <string name="thanksText">감사합니다</string>
     <string name="victoryText">축하합니다, 당신이 이겼습니다</string>
