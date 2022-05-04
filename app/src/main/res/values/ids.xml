@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtnameCC2" type="id" />
+    <item name="txttotaltHPCC2" type="id" />
+    <item name="textView10" type="id" />
+    <item name="txtcurrentHPCC2" type="id" />
+    <item name="textView11" type="id" />
+    <item name="buttonFight1" type="id" />
+    <item name="imagecreature1" type="id" />
+    <item name="imagecreature2" type="id" />
+    <item name="buttonLight" type="id" />
+    <item name="buttonHeavy" type="id" />
+    <item name="txtnameCC1" type="id" />
+    <item name="textView7" type="id" />
+    <item name="textView9" type="id" />
+    <item name="txttotaltHPCC1" type="id" />
+    <item name="txtcurrentHPCC1" type="id" />
+</resources>
